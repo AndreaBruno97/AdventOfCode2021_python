@@ -3,6 +3,7 @@ do
 	mkdir "day_$day"
 	cd ./"day_$day"
 	touch input.txt
+	touch example.txt
 	touch part_1.py
 	touch part_2.py
 	cd ..
