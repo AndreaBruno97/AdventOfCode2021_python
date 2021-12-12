@@ -12,3 +12,7 @@ def open_file_lines(filename="input.txt"):
 
 def open_file_int_array(filename="input.txt"):
     return [int(x) for x in open_file_lines(filename)]
+
+
+def open_file_int_matrix(filename="input.txt"):
+    return [[int(y) for y in x.strip()] for x in open_file_lines(filename)]
